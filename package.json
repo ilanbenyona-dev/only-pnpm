@@ -1,0 +1,30 @@
+{
+  "name": "only-allow-pnpm",
+  "version": "1.0.0",
+  "description": "Force pnpm package manager to be used on a project",
+  "main": "bin.js",
+  "bin": "bin.js",
+  "files": [
+    "bin.js"
+  ],
+  "scripts": { },
+  "keywords": [
+    "pnpm",
+    "force pnpm",
+    "only pnpm",
+    "preinstall"
+  ],
+  "author": "Ilan Dazanashvili",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilanbenyona-dev/only-pnpm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilanbenyona-dev/only-pnpm/issues"
+  },
+  "homepage": "https://github.com/ilanbenyona-dev/only-pnpm#readme",
+  "dependencies": {
+    "boxen": "4"
+  }
+}
