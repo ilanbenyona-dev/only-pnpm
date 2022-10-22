@@ -1,14 +1,11 @@
 #!/usr/bin/env node
-const boxen = require("boxen");
 
 function gracefullExit(pm = "pnpm") {
-    const boxenOpts = { padding: 1, borderColor: "red" };
-    console.error(
-        boxen(pm.toUpperCase() + 
-            ' is not supported here.\nUse PNPM instead.',
-            boxenOpts
-        )
-    );
+    let msg =  pm.toUpperCase() + ' is not supported here.\n Install using PNPM instead.';
+    console.error("\x1b[1m\x1b[31m%s\x1b[31m", '###'.repeat(10));
+    console.error("\x1b[37m", msg, "\x1b[4m");
+    console.error("\x1b[31m%s\x1b[31m\n", '###'.repeat(10))
+
     process.exit(1);
 }  
 
