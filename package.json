@@ -1,6 +1,6 @@
 {
-  "name": "only-allow-pnpm",
-  "version": "1.0.0",
+  "name": "pnpm-only",
+  "version": "1.0.6",
   "description": "Force pnpm package manager to be used on a project",
   "main": "bin.js",
   "bin": "bin.js",
@@ -27,6 +27,5 @@
   },
   "homepage": "https://github.com/ilanbenyona-dev/only-pnpm#readme",
   "dependencies": {
-    "boxen": "4"
   }
 }
